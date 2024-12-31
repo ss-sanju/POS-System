@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace POSSystem.Models.Enum;
+namespace POSSystem.Models.Address;
 
 public class Country
 {

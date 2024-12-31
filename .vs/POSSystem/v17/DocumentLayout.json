@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\Dot Net\\POSSystem\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\models\\product management\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\models\\product management\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\models\\product management\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\models\\product management\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\models\\enum\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\models\\enum\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\models\\enum\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\models\\enum\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,58 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Country.cs",
-              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Enum\\Country.cs",
-              "RelativeDocumentMoniker": "POSSystem\\Models\\Enum\\Country.cs",
-              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Enum\\Country.cs",
-              "RelativeToolTip": "POSSystem\\Models\\Enum\\Country.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T10:39:27.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Picture.cs",
-              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Enum\\Picture.cs",
-              "RelativeDocumentMoniker": "POSSystem\\Models\\Enum\\Picture.cs",
-              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Enum\\Picture.cs",
-              "RelativeToolTip": "POSSystem\\Models\\Enum\\Picture.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T10:38:24.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Vendor.cs",
-              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Product Management\\Vendor.cs",
-              "RelativeDocumentMoniker": "POSSystem\\Models\\Product Management\\Vendor.cs",
-              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Product Management\\Vendor.cs",
-              "RelativeToolTip": "POSSystem\\Models\\Product Management\\Vendor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T13:39:23.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Item.cs",
-              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Product Management\\Item.cs",
-              "RelativeDocumentMoniker": "POSSystem\\Models\\Product Management\\Item.cs",
-              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Product Management\\Item.cs",
-              "RelativeToolTip": "POSSystem\\Models\\Product Management\\Item.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T13:38:04.522Z",
-              "EditorCaption": ""
             }
           ]
         }
