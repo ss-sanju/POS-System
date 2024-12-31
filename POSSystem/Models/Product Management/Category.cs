@@ -10,6 +10,6 @@ namespace POSSystem.Models.Product_Management
         public string CategoryName { get; set; }
         public string Description { get; set; }
 
-        public ICollection<Product> Products { get; set; }
+        public ICollection<Item> Products { get; set; }
     }
 }

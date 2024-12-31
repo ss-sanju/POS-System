@@ -4,17 +4,17 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace POSSystem.Models.Product_Management
+namespace POSSystem.Models.Item_Management
 {
-    public class Product
+    public class Item
     {
         [Key]
-        [Required(ErrorMessage ="Product Id is required.")]
-        public Guid ProductId { get; set; }
-        [Required(ErrorMessage = "Product Name is required.")]
+        [Required(ErrorMessage ="Item Id is required.")]
+        public Guid ItemId { get; set; }
+        [Required(ErrorMessage = "Item Name is required.")]
         [StringLength(100)]
-        [Display(Name ="Product Name")]
-        public string ProductName { get; set; }
+        [Display(Name ="Item Name")]
+        public string ItemName { get; set; }
         [Required(ErrorMessage = "Description is required.")]
         [StringLength(250)]
         public string? Description { get; set; }
@@ -42,9 +42,9 @@ namespace POSSystem.Models.Product_Management
         public Status Status { get; set; }
         [ForeignKey("CategoryId")]
         public Category Category { get; set; }
-        public Product()
+        public Item()
         {
-            ProductId = Guid.NewGuid();
+            ItemId = Guid.NewGuid();
             CreatedAt = DateTime.UtcNow;
             UpdatedAt = DateTime.UtcNow;
         }

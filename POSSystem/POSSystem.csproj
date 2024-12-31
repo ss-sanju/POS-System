@@ -10,7 +10,6 @@
     <Folder Include="Models\Audit and Logs\" />
     <Folder Include="Models\Category\" />
     <Folder Include="Models\Configuration and Settings\" />
-    <Folder Include="Models\Customer Management\" />
     <Folder Include="Models\Inventory Management\" />
     <Folder Include="Models\Payment Management\" />
     <Folder Include="Models\Sales Management\" />

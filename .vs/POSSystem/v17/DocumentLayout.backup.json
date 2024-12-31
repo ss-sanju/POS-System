@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\Projects\\Dot Net\\POSSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\models\\enum\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\models\\enum\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\models\\customer management\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\models\\customer management\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\models\\product management\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\models\\product management\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\models\\product management\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\models\\product management\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\models\\user management\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\models\\user management\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\models\\user management\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\models\\user management\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\models\\product management\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\models\\product management\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,39 +47,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\User Management\\User.cs",
-              "RelativeDocumentMoniker": "POSSystem\\Models\\User Management\\User.cs",
-              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\User Management\\User.cs",
-              "RelativeToolTip": "POSSystem\\Models\\User Management\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Title": "Picture.cs",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Enum\\Picture.cs",
+              "RelativeDocumentMoniker": "POSSystem\\Models\\Enum\\Picture.cs",
+              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Enum\\Picture.cs*",
+              "RelativeToolTip": "POSSystem\\Models\\Enum\\Picture.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T16:20:59.04Z",
+              "WhenOpened": "2024-12-31T10:38:24.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\User Management\\Roles.cs",
-              "RelativeDocumentMoniker": "POSSystem\\Models\\User Management\\Roles.cs",
-              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\User Management\\Roles.cs",
-              "RelativeToolTip": "POSSystem\\Models\\User Management\\Roles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Customer Management\\Customer.cs",
+              "RelativeDocumentMoniker": "POSSystem\\Models\\Customer Management\\Customer.cs",
+              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Customer Management\\Customer.cs",
+              "RelativeToolTip": "POSSystem\\Models\\Customer Management\\Customer.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T16:20:47.051Z"
+              "WhenOpened": "2024-12-31T10:16:28.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\User Management\\User.cs",
+              "RelativeDocumentMoniker": "POSSystem\\Models\\User Management\\User.cs",
+              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\User Management\\User.cs",
+              "RelativeToolTip": "POSSystem\\Models\\User Management\\User.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T13:40:27.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Product Management\\Supplier.cs",
+              "RelativeDocumentMoniker": "POSSystem\\Models\\Product Management\\Supplier.cs",
+              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Product Management\\Supplier.cs",
+              "RelativeToolTip": "POSSystem\\Models\\Product Management\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T13:39:23.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Product Management\\Category.cs",
+              "RelativeDocumentMoniker": "POSSystem\\Models\\Product Management\\Category.cs",
+              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Product Management\\Category.cs",
+              "RelativeToolTip": "POSSystem\\Models\\Product Management\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T13:38:48.919Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "POSSystem\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "POSSystem\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Product Management\\Product.cs",
+              "RelativeDocumentMoniker": "POSSystem\\Models\\Product Management\\Product.cs",
+              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Product Management\\Product.cs",
+              "RelativeToolTip": "POSSystem\\Models\\Product Management\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T16:19:50.09Z"
+              "WhenOpened": "2024-12-29T13:38:04.522Z",
+              "EditorCaption": ""
             }
           ]
         }
