@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 using POSSystem.Models.Enum;
 using POSSystem.Models.Enum.Item;
 using POSSystem.Models.Product_Management;
@@ -18,7 +19,7 @@ public class Item
     /// </summary>
     [Key]
     [Required(ErrorMessage ="Item Id is required.")]
-    public Guid Code { get; set; }
+    public Guid Id { get; set; }
     /// <summary>
     /// Gets or sets the item name
     /// </summary>
@@ -53,12 +54,14 @@ public class Item
     /// </summary>
     [Required(ErrorMessage = "Unit Price is required.")]
     [Display(Name ="Unit Price")]
+    [Precision(18, 2)] // Precision: 18 digits, Scale: 2 digits after the decimal point
     public decimal UnitPrice { get; set; }
     /// <summary>
     /// Gets or sets the product cost
     /// </summary>
     [Required(ErrorMessage = "Cost is required.")]
     [Display(Name = "Unit Cost")]
+    [Precision(18, 2)] // Precision: 18 digits, Scale: 2 digits after the decimal point
     public decimal UnitCost { get; set; }
   
     [Required(ErrorMessage = "Barcode is required.")]
@@ -83,11 +86,12 @@ public class Item
     /// Gets or sets the tax category identifier
     /// </summary>
     public int TaxCategoryId { get; set; }
+    [Required]
     [ForeignKey("CategoryId")]
     public Category Category { get; set; }
     public Item()
     {
-        Code = Guid.NewGuid();
+        Id = Guid.NewGuid();
         CreatedAt = DateTime.UtcNow;
         UpdatedAt = DateTime.UtcNow;
     }

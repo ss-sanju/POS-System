@@ -1,7 +1,12 @@
-﻿namespace POSSystem.Models.Address;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace POSSystem.Models.Address;
 
 public class Picture
 {
+    [Key]
+    [Required]
+    public Guid Id { get; set; }
     /// <summary>
     /// Gets or sets the picture mime type
     /// </summary>

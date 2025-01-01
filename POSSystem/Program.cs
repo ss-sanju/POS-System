@@ -1,11 +1,17 @@
 using Microsoft.EntityFrameworkCore;
 using POSSystem.Data;
+using POSSystem.Generic;
+using POSSystem.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IItemServices, ItemServices>();
+builder.Services.AddScoped<ICustomerServices, CustomerServices>();
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

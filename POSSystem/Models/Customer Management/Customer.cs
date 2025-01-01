@@ -11,14 +11,6 @@ namespace POSSystem.Models.Customer_Management;
 /// </summary>
 public class Customer
 {
-    //public Customer()
-    //{
-    //    CustomerGuid = Guid.NewGuid();
-    //}
-    ///// <summary>
-    ///// Gets or sets the customer GUID
-    ///// </summary>
-    //public Guid CustomerGuid { get; set; }
 
     /// <summary>
     /// Gets or sets the customer Id
@@ -26,23 +18,17 @@ public class Customer
     [Key]
     [Required]
     [StringLength(20)]
-    [Display(Name="Customer Code")]
-    public Guid Code { get; set; }
+    [Display(Name="No.")]
+    public Guid Id { get; set; }
   
     /// <summary>
     /// Gets or sets the First name
     /// </summary>
     [Required]
     [StringLength(100)]
-    [Display(Name = "Customer First Name")]
-    public string FirstName { get; set; }
-    /// <summary>
-    /// Gets or sets the Last name
-    /// </summary>
-    [Required]
-    [StringLength(100)]
-    [Display(Name = "Customer Last Name")]
-    public string LastName { get; set; }
+    [Display(Name = "Name")]
+    public string FullName { get; set; }
+   
     /// <summary>
     /// Gets or sets the username
     /// </summary>
@@ -81,10 +67,7 @@ public class Customer
     [StringLength(250)]
     public string? Description { get; set; }
 
-    /// <summary>
-    /// Gets or sets the picture identifier
-    /// </summary>
-    public Guid PictureId { get; set; }
+   
     /// <summary>
     /// Gets or sets the address
     /// </summary>
@@ -112,8 +95,11 @@ public class Customer
     [Display(Name ="Post Code")]
     public string ZipPostalCode { get; set; }
 
+    [Column(TypeName = "varbinary(max)")]
+    public byte[]? Photo { get; set; }
+
     /// <summary>
-    /// Gets or sets the vat number
+    /// Gets or sets the vat registration number
     /// </summary>
 
     [Required]
@@ -133,6 +119,10 @@ public class Customer
     /// Gets or sets the date and time of entity creation
     /// </summary>
     public DateTime CreatedOnUtc { get; set; }
+    /// <summary>
+    /// Gets or sets the picture identifier
+    /// </summary>
+    public Guid PictureId { get; set; }
 
     [ForeignKey("PictureId")]
     public Picture Picture { get; set; }
