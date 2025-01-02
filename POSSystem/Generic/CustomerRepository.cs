@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using POSSystem.Data;
-using POSSystem.Models.Customer_Management;
 using POSSystem.Generic;
+using POSSystem.Models.Item_Management;
 
 namespace POSSystem.Generic;
 
@@ -21,43 +21,61 @@ public class CustomerRepository<T> : ICustomerRepository<T> where T : class
         return await _dbSet.ToListAsync();
     }
 
-    public async Task<T?> GetByIdAsync(Guid id)
+    public async Task<T> GetByIdAsync(Guid id)
     {
         return await _dbSet.FindAsync(id);
     }
 
     public async Task AddAsync(T entity)
     {
-        if (entity == null) throw new ArgumentNullException(nameof(entity));
-        await _dbSet.AddAsync(entity);
-        await _context.SaveChangesAsync();
+        using var transaction = await _context.Database.BeginTransactionAsync();
+        try
+        {
+            await _dbSet.AddAsync(entity);
+            await _context.SaveChangesAsync();
+            await transaction.CommitAsync();
+        }
+        catch
+        {
+            await transaction.RollbackAsync();
+            throw;
+        }
     }
 
     public async Task UpdateAsync(T entity)
     {
-        if (entity == null) throw new ArgumentNullException(nameof(entity));
-        _dbSet.Update(entity);
-        await _context.SaveChangesAsync();
-    }
-    public async Task DeleteAsync(Guid id)
-    {
-        var entity = await _dbSet.FindAsync(id);
-        if (entity == null)
+        using var transaction = await _context.Database.BeginTransactionAsync();
+        try
         {
-            throw new KeyNotFoundException($"Entity with ID {id} was not found.");
+            _dbSet.Update(entity);
+            await _context.SaveChangesAsync();
+            await transaction.CommitAsync();
         }
-        _dbSet.Remove(entity);
-        await _context.SaveChangesAsync();
+        catch
+        {
+            await transaction.RollbackAsync();
+            throw;
+        }
     }
 
-    public async Task<T?> GetDetailsAsync(Guid id)
+    public async Task DeleteAsync(Guid id)
     {
-        var entity = await _dbSet.FindAsync(id);
-        if (entity == null)
+        using var transaction = await _context.Database.BeginTransactionAsync();
+        try
         {
-            throw new KeyNotFoundException($"Entity with ID {id} was not found.");
+            var entity = await _dbSet.FindAsync(id);
+            if (entity != null)
+            {
+                _dbSet.Remove(entity);
+                await _context.SaveChangesAsync();
+                await transaction.CommitAsync();
+            }
         }
-        return entity;
+        catch
+        {
+            await transaction.RollbackAsync();
+            throw;
+        }
     }
-    
 }
+

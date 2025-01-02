@@ -94,15 +94,6 @@ public class ItemRepository<T> : IItemRepository<T> where T : class
         }
     }
 
-    Task<IEnumerable<Item>> IItemRepository<T>.GetAllAsync()
-    {
-        throw new NotImplementedException();
-    }
-
-    Task<Item?> IItemRepository<T>.GetByIdAsync(Guid id)
-    {
-        throw new NotImplementedException();
-    }
 
     public Task AddAsync(Item item)
     {

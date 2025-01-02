@@ -26,24 +26,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Projects\Dot Net\POSSystem\POSSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CRUD/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmVhdGUuY3NodG1s
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CUSTOMER/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1VTVE9NRVJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CRUD/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZWxldGUuY3NodG1s
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CUSTOMER/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1VTVE9NRVJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CRUD/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZXRhaWxzLmNzaHRtbA==
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CUSTOMER/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1VTVE9NRVJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CRUD/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxJbmRleC5jc2h0bWw=
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CUSTOMER/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1VTVE9NRVJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CRUD/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxVcGRhdGUuY3NodG1s
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CUSTOMER/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1VTVE9NRVJcSW5kZXgxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CUSTOMER/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1VTVE9NRVJcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/Dot Net/POSSystem/POSSystem/Views/Home/Index.cshtml]

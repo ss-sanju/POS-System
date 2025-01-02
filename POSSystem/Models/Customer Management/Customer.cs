@@ -17,7 +17,6 @@ public class Customer
     /// </summary>
     [Key]
     [Required]
-    [StringLength(20)]
     [Display(Name="No.")]
     public Guid Id { get; set; }
   
@@ -77,8 +76,7 @@ public class Customer
     /// <summary>
     /// Gets or sets the country id
     /// </summary>
-    [StringLength(50)]
-    public Guid CountryId { get; set; }
+    public String CountryId { get; set; }
     /// <summary>
     /// Gets or sets the city
     /// </summary>
@@ -126,8 +124,8 @@ public class Customer
 
     [ForeignKey("PictureId")]
     public Picture Picture { get; set; }
-    [ForeignKey("CountryId")]
-    public Country Country { get; set; }
+    //[ForeignKey("CountryId")]
+    //public Country Country { get; set; }
 
 
 

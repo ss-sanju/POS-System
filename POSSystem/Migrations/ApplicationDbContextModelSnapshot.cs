@@ -81,7 +81,6 @@ namespace POSSystem.Migrations
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasMaxLength(20)
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Address")
@@ -93,9 +92,9 @@ namespace POSSystem.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("CountryId")
-                        .HasMaxLength(50)
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("CountryId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedOnUtc")
                         .HasColumnType("datetime2");
@@ -156,8 +155,6 @@ namespace POSSystem.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CountryId");
 
                     b.HasIndex("PictureId");
 
@@ -348,19 +345,11 @@ namespace POSSystem.Migrations
 
             modelBuilder.Entity("POSSystem.Models.Customer_Management.Customer", b =>
                 {
-                    b.HasOne("POSSystem.Models.Address.Country", "Country")
-                        .WithMany()
-                        .HasForeignKey("CountryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("POSSystem.Models.Address.Picture", "Picture")
                         .WithMany()
                         .HasForeignKey("PictureId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Country");
 
                     b.Navigation("Picture");
                 });

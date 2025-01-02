@@ -1,0 +1,84 @@
+﻿
+@model IEnumerable<POSSystem.Models.Customer_Management.Customer>
+
+<div>
+    <h1>Customer List</h1>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 16px;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .edit-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .edit-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <a asp-action="Create" class="btn btn-primary">Add New Customer</a>
+   
+
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Phone No.</th>
+                <th>Gender</th>
+                <th>Address</th>
+                <th>VAT Registration Number</th>
+                <th>Created On</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model)
+            {
+                    <tr>
+                        <td>@customer.Id</td>
+                        <td>@customer.FullName</td>
+                        <td>@customer.Username</td>
+                        <td>@customer.Email</td>
+                        <td>@customer.Phone</td>
+                        <td>@(customer.Gender == 0 ? "Male" : "Female")</td>
+                        <td>@customer.Address</td>
+                        <td>@customer.VatRegNumber</td>
+                        <td>@customer.CreatedOnUtc.ToString("yyyy-MM-dd")</td>
+                        <td>
+                            <button class="edit-btn" onclick="editCustomer(@customer.Id)">Edit</button>
+                        </td>
+                    </tr>
+            }
+        </tbody>
+    </table>
+</div>
