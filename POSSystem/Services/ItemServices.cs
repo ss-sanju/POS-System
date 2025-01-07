@@ -1,40 +1,37 @@
 ﻿using POSSystem.Generic;
 using POSSystem.Models.Item_Management;
 
-namespace POSSystem.Services
+namespace POSSystem.Services;
+
+public class ItemServices : IItemServices
 {
-    public class ItemServices : IItemServices
+    private readonly IUnitOfWork _unitofwork;
+    public ItemServices(IUnitOfWork unitofwork)
     {
-        private readonly IUnitOfWork _unitOfWork;
-        public ItemServices(IUnitOfWork unitOfWork)
-        {
-            _unitOfWork = unitOfWork;
-        }
-
-        public async Task<IEnumerable<Item>> GetAllItemsAsync()
-        {
-            return await _unitOfWork.ItemRepository.GetAllAsync();
-        }
-
-        public async Task<Item> GetItemByIdAsync(Guid id)
-        {
-            return await _unitOfWork.ItemRepository.GetByIdAsync(id);
-        }
-        public async Task AddItemAsync(Item Item)
-        {
-            await _unitOfWork.ItemRepository.AddAsync(Item);
-            await _unitOfWork.SaveAsync();
-        }
-        public async Task UpdateItemAsync(Item Item)
-        {
-            await _unitOfWork.ItemRepository.UpdateAsync(Item);
-            await _unitOfWork.SaveAsync();
-        }     
-
-        public async Task DeleteItemAsync(Guid id)
-        {
-            await _unitOfWork.ItemRepository.DeleteAsync(id);
-            await _unitOfWork.SaveAsync();
-        }
+        _unitofwork = unitofwork;
+    }   
+    public async Task<IEnumerable<Item>> GetAllItemAsync()
+    {
+        return await _unitofwork.ItemRepository.GetAllAsync();
     }
+    public async Task<Item> GetItemByIdAsync(Guid id)
+    {
+        return await _unitofwork.ItemRepository.GetByIdAsync(id);
+    }
+    public async Task AddItemAsync(Item Item)
+    {
+         await _unitofwork.ItemRepository.AddAsync(Item);
+        await _unitofwork.SaveAsync();
+    }
+    public async Task UpdateItemAsync(Item Item)
+    {
+        await _unitofwork.ItemRepository.UpdateAsync(Item);
+        await _unitofwork.SaveAsync();
+    }
+    public async Task DeleteItemAsync(Guid id)
+    {
+        await _unitofwork.ItemRepository.DeleteAsync(id);
+        await _unitofwork.SaveAsync();
+    }
+
 }

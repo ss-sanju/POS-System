@@ -5,7 +5,7 @@ namespace POSSystem.Generic;
 
 public interface IUnitOfWork : IDisposable
 {
-    IItemRepository<Item> ItemRepository { get; }
-    ICustomerRepository<Customer> CustomerRepository { get; }
+    IRepository<Customer> CustomerRepository { get; }
+    IRepository<Item> ItemRepository { get; }
     Task SaveAsync();
 }

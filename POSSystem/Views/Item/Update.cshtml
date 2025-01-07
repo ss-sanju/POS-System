@@ -1,0 +1,79 @@
+﻿@model POSSystem.Models.Item_Management.Item
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Item</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Edit Item</h2>
+
+        <form asp-action="Edit" method="post">
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="ItemName"></label>
+                <input asp-for="ItemName" class="form-control" />
+                <span asp-validation-for="ItemName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId"></label>
+                <input asp-for="CategoryId" class="form-control" />
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UnitofMeasure"></label>
+                <input asp-for="UnitofMeasure" class="form-control" />
+                <span asp-validation-for="UnitofMeasure" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StockQty"></label>
+                <input asp-for="StockQty" class="form-control" />
+                <span asp-validation-for="StockQty" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UnitPrice"></label>
+                <input asp-for="UnitPrice" class="form-control" />
+                <span asp-validation-for="UnitPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UnitCost"></label>
+                <input asp-for="UnitCost" class="form-control" />
+                <span asp-validation-for="UnitCost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Barcode"></label>
+                <input asp-for="Barcode" class="form-control" />
+                <span asp-validation-for="Barcode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsAvailable"></label>
+                <input asp-for="IsAvailable" class="form-control" />
+                <span asp-validation-for="IsAvailable" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsTaxExempt"></label>
+                <input asp-for="IsTaxExempt" class="form-control" />
+                <span asp-validation-for="IsTaxExempt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TaxCategoryId"></label>
+                <input asp-for="TaxCategoryId" class="form-control" />
+                <span asp-validation-for="TaxCategoryId" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+        </form>
+    </div>
+</body>
+</html>

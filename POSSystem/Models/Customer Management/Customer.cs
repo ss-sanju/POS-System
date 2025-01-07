@@ -21,7 +21,7 @@ public class Customer
     public Guid Id { get; set; }
   
     /// <summary>
-    /// Gets or sets the First name
+    /// Gets or sets the Full name
     /// </summary>
     [Required]
     [StringLength(100)]
@@ -58,7 +58,7 @@ public class Customer
     /// <summary>
     /// Gets or sets the date of birth
     /// </summary>
-    public DateTime? DateOfBirth { get; set; }
+    public DateTime DateOfBirth { get; set; }
     /// <summary>
     /// Gets or sets the description
     /// </summary>
@@ -116,21 +116,15 @@ public class Customer
     /// <summary>
     /// Gets or sets the date and time of entity creation
     /// </summary>
-    public DateTime CreatedOnUtc { get; set; }
+    public DateTime? CreatedOnUtc { get; set; }
     /// <summary>
     /// Gets or sets the picture identifier
     /// </summary>
-    public Guid PictureId { get; set; }
+    //public Guid PictureId { get; set; }
 
-    [ForeignKey("PictureId")]
-    public Picture Picture { get; set; }
+    //[ForeignKey("PictureId")]
+    //public Picture Picture { get; set; }
     //[ForeignKey("CountryId")]
     //public Country Country { get; set; }
 
-
-
-    //public override string ToString()
-    //{
-    //    return $"Customer(Code: {Code}, Name: {Name}, Address: {Address}, Phone No.: {PhoneNo})";
-    //}
 }

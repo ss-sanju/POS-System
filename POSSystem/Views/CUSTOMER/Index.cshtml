@@ -1,84 +1,67 @@
-﻿
-@model IEnumerable<POSSystem.Models.Customer_Management.Customer>
+﻿@model IEnumerable<POSSystem.Models.Customer_Management.Customer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer List</title>
+    <!-- Bootstrap CSS (Ensure you include this in your project) -->
+    <link href="~/css/customer.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4 mb-4">Customer List</h1>
 
-<div>
-    <h1>Customer List</h1>
+        <!-- Add New Customer Button -->
+        <a asp-action="Create" class="btn btn-primary mb-3">Add New Customer</a>
 
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            font-size: 16px;
-            text-align: left;
-        }
-
-        th, td {
-            padding: 12px;
-            border: 1px solid #ddd;
-        }
-
-        th {
-            background-color: #f4f4f4;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-
-        tr:hover {
-            background-color: #f1f1f1;
-        }
-
-        .edit-btn {
-            background-color: #007bff;
-            color: white;
-            border: none;
-            padding: 5px 10px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        .edit-btn:hover {
-            background-color: #0056b3;
-        }
-    </style>
-    <a asp-action="Create" class="btn btn-primary">Add New Customer</a>
-   
-
-    <table>
-        <thead>
-            <tr>
-                <th>No.</th>
-                <th>Name</th>
-                <th>Username</th>
-                <th>Email</th>
-                <th>Phone No.</th>
-                <th>Gender</th>
-                <th>Address</th>
-                <th>VAT Registration Number</th>
-                <th>Created On</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var customer in Model)
-            {
+        <!-- Customer Table -->
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">No.</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Phone No.</th>
+                    <th scope="col">Gender</th>
+                    <th scope="col">DOB</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">VAT Registration Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var customer in Model)
+                {
                     <tr>
-                        <td>@customer.Id</td>
+                        <td onclick="editCustomer('@customer.Id')">@customer.Id</td>
                         <td>@customer.FullName</td>
                         <td>@customer.Username</td>
                         <td>@customer.Email</td>
                         <td>@customer.Phone</td>
-                        <td>@(customer.Gender == 0 ? "Male" : "Female")</td>
+                        <td>@customer.Gender</td>
+                        <td>@customer.DateOfBirth.ToString("yyyy-MM-dd")</td>
                         <td>@customer.Address</td>
                         <td>@customer.VatRegNumber</td>
-                        <td>@customer.CreatedOnUtc.ToString("yyyy-MM-dd")</td>
-                        <td>
-                            <button class="edit-btn" onclick="editCustomer(@customer.Id)">Edit</button>
-                        </td>
+                        @* <td>
+                            <button class="btn btn-warning btn-sm" onclick="editCustomer('@customer.Id')">
+                                Edit
+                            </button>
+                            <button class="btn btn-danger btn-sm" onclick="deleteCustomer('@customer.Id')">
+                                Delete
+                            </button>
+
+                        </td> *@
                     </tr>
-            }
-        </tbody>
-    </table>
-</div>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (Ensure you include these in your project) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- Include JavaScript for Customer Management -->
+    <script src="~/js/customer.js"></script>
+</body>
+</html>

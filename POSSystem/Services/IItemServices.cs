@@ -4,7 +4,7 @@ namespace POSSystem.Services
 {
     public interface IItemServices
     {
-        Task<IEnumerable<Item>> GetAllItemsAsync();
+        Task<IEnumerable<Item>> GetAllItemAsync();
         Task<Item> GetItemByIdAsync(Guid id);
         Task AddItemAsync(Item Item);
         Task UpdateItemAsync(Item Item);

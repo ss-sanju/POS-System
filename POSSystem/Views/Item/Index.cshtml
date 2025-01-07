@@ -1,0 +1,54 @@
+﻿@model IEnumerable<POSSystem.Models.Item_Management.Item>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Item List</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Item List</h2>
+        <a asp-action="Create" class="btn btn-success">Create New Item</a>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Unit Price</th>
+                    <th>Stock Qty</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td onclick="editItem('@item.Id')">@item.Id</td>
+                        <td>@item.ItemName</td>
+                        <td>@item.Description</td>
+                        <td>@item.UnitPrice</td>
+                        <td>@item.StockQty</td>
+                       @*  <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                        </td> *@
+                        <td>
+                            <button class="btn btn-warning btn-sm" onclick="editItem('@item.Id')">
+                                Edit
+                            </button>
+                            <button class="btn btn-danger btn-sm" onclick="deleteItem('@item.Id')">
+                                Delete
+                            </button>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        
+    </div>
+    <script src="~/js/item.js"></script>
+</body>
+</html>

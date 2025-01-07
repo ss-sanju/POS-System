@@ -8,9 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IItemServices, ItemServices>();
+builder.Services.AddScoped<IUnitOfWork, UnitofWork>();
+
 builder.Services.AddScoped<ICustomerServices, CustomerServices>();
+builder.Services.AddScoped<IItemServices, ItemServices>();
 
 builder.Services.AddControllersWithViews();
 

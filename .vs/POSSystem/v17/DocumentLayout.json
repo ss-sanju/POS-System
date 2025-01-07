@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Projects\\Dot Net\\POSSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\models\\customer management\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\models\\customer management\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\views\\item\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\views\\item\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|d:\\projects\\dot net\\possystem\\possystem\\models\\item management\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F0212E-3789-45C3-B52C-37BBC8DEA034}|POSSystem\\POSSystem.csproj|solutionrelative:possystem\\models\\item management\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,53 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CUSTOMERController.cs",
-              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Controllers\\CUSTOMERController.cs",
-              "RelativeDocumentMoniker": "POSSystem\\Controllers\\CUSTOMERController.cs",
-              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Controllers\\CUSTOMERController.cs",
-              "RelativeToolTip": "POSSystem\\Controllers\\CUSTOMERController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAADwvw0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T08:00:28.167Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "POSSystem\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "POSSystem\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T12:09:24.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Views\\CUSTOMER\\Index.cshtml",
-              "RelativeDocumentMoniker": "POSSystem\\Views\\CUSTOMER\\Index.cshtml",
-              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Views\\CUSTOMER\\Index.cshtml",
-              "RelativeToolTip": "POSSystem\\Views\\CUSTOMER\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAEcAAAAwAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Views\\Item\\Create.cshtml",
+              "RelativeDocumentMoniker": "POSSystem\\Views\\Item\\Create.cshtml",
+              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Views\\Item\\Create.cshtml",
+              "RelativeToolTip": "POSSystem\\Views\\Item\\Create.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T07:53:42.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Customer Management\\Customer.cs",
-              "RelativeDocumentMoniker": "POSSystem\\Models\\Customer Management\\Customer.cs",
-              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Customer Management\\Customer.cs",
-              "RelativeToolTip": "POSSystem\\Models\\Customer Management\\Customer.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAqwH8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T07:51:09.367Z",
+              "WhenOpened": "2025-01-07T12:03:47.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Views\\CUSTOMER\\Create.cshtml",
-              "RelativeDocumentMoniker": "POSSystem\\Views\\CUSTOMER\\Create.cshtml",
-              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Views\\CUSTOMER\\Create.cshtml",
-              "RelativeToolTip": "POSSystem\\Views\\CUSTOMER\\Create.cshtml",
-              "ViewState": "AgIAADEAAAAAAAAAAAAuwE4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T07:49:18.12Z",
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Item Management\\Item.cs",
+              "RelativeDocumentMoniker": "POSSystem\\Models\\Item Management\\Item.cs",
+              "ToolTip": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\Models\\Item Management\\Item.cs",
+              "RelativeToolTip": "POSSystem\\Models\\Item Management\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T12:03:42.723Z",
               "EditorCaption": ""
             }
           ]

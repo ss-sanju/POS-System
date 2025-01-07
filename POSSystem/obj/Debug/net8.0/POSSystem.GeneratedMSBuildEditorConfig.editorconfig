@@ -26,28 +26,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Projects\Dot Net\POSSystem\POSSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CUSTOMER/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1VTVE9NRVJcQ3JlYXRlLmNzaHRtbA==
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CUSTOMER/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1VTVE9NRVJcRGVsZXRlLmNzaHRtbA==
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/Customer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CUSTOMER/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1VTVE9NRVJcRGV0YWlscy5jc2h0bWw=
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/Customer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CUSTOMER/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1VTVE9NRVJcSW5kZXguY3NodG1s
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CUSTOMER/Index1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1VTVE9NRVJcSW5kZXgxLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Projects/Dot Net/POSSystem/POSSystem/Views/CUSTOMER/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1VTVE9NRVJcVXBkYXRlLmNzaHRtbA==
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/Customer/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/Dot Net/POSSystem/POSSystem/Views/Home/Index.cshtml]
@@ -56,6 +52,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Projects/Dot Net/POSSystem/POSSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/Item/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/Item/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/Item/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/Item/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Dot Net/POSSystem/POSSystem/Views/Item/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/Dot Net/POSSystem/POSSystem/Views/Shared/Error.cshtml]

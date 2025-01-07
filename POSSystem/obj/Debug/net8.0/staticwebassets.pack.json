@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\POSSystem.bundle.scp.css"
     },
     {
+      "Id": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\wwwroot\\css\\Customer.css",
+      "PackagePath": "staticwebassets\\css\\Customer.css"
+    },
+    {
       "Id": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\wwwroot\\js\\Customer.js",
+      "PackagePath": "staticwebassets\\js\\Customer.js"
+    },
+    {
+      "Id": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\wwwroot\\js\\Item.js",
+      "PackagePath": "staticwebassets\\js\\Item.js"
     },
     {
       "Id": "D:\\Projects\\Dot Net\\POSSystem\\POSSystem\\wwwroot\\js\\site.js",

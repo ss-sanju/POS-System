@@ -25,7 +25,7 @@ public class Item
     /// </summary>
     [Required(ErrorMessage = "Item Name is required.")]
     [StringLength(100)]
-    [Display(Name ="Item Name")]
+    [Display(Name ="Name")]
     public string ItemName { get; set; }
     /// <summary>
     /// Gets or sets the description
@@ -86,13 +86,13 @@ public class Item
     /// Gets or sets the tax category identifier
     /// </summary>
     public int TaxCategoryId { get; set; }
-    [Required]
+    //[Required]
     [ForeignKey("CategoryId")]
     public Category Category { get; set; }
     public Item()
     {
         Id = Guid.NewGuid();
         CreatedAt = DateTime.UtcNow;
-        UpdatedAt = DateTime.UtcNow;
+        //UpdatedAt = DateTime.UtcNow;
     }
 }

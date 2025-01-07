@@ -3,26 +3,21 @@ using POSSystem.Models.Customer_Management;
 using POSSystem.Models.Item_Management;
 
 namespace POSSystem.Generic;
-
-public class UnitOfWork : IUnitOfWork
+public class UnitofWork:IUnitOfWork
 {
     private readonly ApplicationDbContext _context;
-
-
-    public UnitOfWork(ApplicationDbContext context)
+    public UnitofWork(ApplicationDbContext context)
     {
         _context = context;
-        ItemRepository = new ItemRepository<Item>(_context);
-        CustomerRepository = new CustomerRepository<Customer>(_context);
+        CustomerRepository =new Repository<Customer>(_context);
+        ItemRepository = new Repository<Item>(_context);
     }
-
-    public IItemRepository<Item> ItemRepository { get; private set; }
-    public ICustomerRepository<Customer> CustomerRepository {  get; private set; }
+    public IRepository<Customer> CustomerRepository { get; set; }
+    public IRepository<Item> ItemRepository { get; set; }
     public async Task SaveAsync()
     {
         await _context.SaveChangesAsync();
     }
-
     public void Dispose()
     {
         _context.Dispose();
