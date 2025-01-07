@@ -4,7 +4,6 @@ using POSSystem.Models.Customer_Management;
 using POSSystem.Models.Enum;
 using POSSystem.Models.Enum.Item;
 using POSSystem.Models.Item_Management;
-using POSSystem.Models.Product_Management;
 using POSSystem.Models.User_Management;
 using System.Collections.Generic;
 
@@ -22,7 +21,4 @@ public class ApplicationDbContext : DbContext
     public DbSet<Category> Categorys { get; set; }
     public DbSet<Item> Items { get; set; }
     public DbSet<Vendor> Vendor { get; set; }
-    //public DbSet<UnitofMeasure> UnitofMeasure { get; set; }
-    //public DbSet<Gender> Gender { get; set; }
-    //public DbSet<Status> Status; set; }
 }

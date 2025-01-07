@@ -7,5 +7,6 @@ public interface IUnitOfWork : IDisposable
 {
     IRepository<Customer> CustomerRepository { get; }
     IRepository<Item> ItemRepository { get; }
+    IRepository<Vendor> VendorRepository { get; }
     Task SaveAsync();
 }
